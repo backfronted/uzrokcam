@@ -2,7 +2,6 @@ import React, { ReactNode } from 'react';
 import {
     Dialog,
     DialogContent,
-    DialogDescription,
     DialogTitle
 } from "@/components/ui/dialog";
 import Image from 'next/image';

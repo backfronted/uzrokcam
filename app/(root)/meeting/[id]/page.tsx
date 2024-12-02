@@ -13,7 +13,7 @@ const Meeting = () => {
   const params = useParams();
   const id = params?.id; // Извлекаем параметр id
   const [isSetupComplete, setIsSetupComplete] = useState(false);
-  const { user, isLoaded } = useUser();
+  const {isLoaded } = useUser();
   const { call, isCallLoading } = useGetCallById(id || '');
 
   useEffect(() => {
